@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main", "add_service_modal"],
+  "webviews": ["main", "ui", "welcome", "add_service_modal"],
+  "permissions": [
+    "core:default",
+    "opener:default"
+  ]
+}
